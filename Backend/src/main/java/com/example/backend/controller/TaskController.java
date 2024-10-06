@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "http://localhost:8081") // for configuring allowed origins
+@CrossOrigin(origins = "http://localhost:4200") // for configuring allowed origins : this is from where Angular is able to access the data (has perm)
 @RestController
 @RequestMapping("/api")
 public class TaskController {

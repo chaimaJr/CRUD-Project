@@ -1,0 +1,14 @@
+<p>task-list works!</p>
+
+<hr>
+
+<h4>Tutorials List</h4>
+<ul>
+    @for (task of tasks; track task.id; let i = $index) {
+    <li>
+        {{ task.title }}
+    </li>
+    }
+</ul>
+
+
